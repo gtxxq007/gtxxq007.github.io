@@ -78,13 +78,13 @@
 		<nav class="header-nav">
 			<div class="social">
 				
-					<a class="github" target="_blank" href="#" title="github"><i class="icon-github"></i></a>
+					<a class="github" target="_blank" href="https://github.com" title="github"><i class="icon-github"></i></a>
 		        
-					<a class="weibo" target="_blank" href="#" title="weibo"><i class="icon-weibo"></i></a>
+					<a class="weibo" target="_blank" href="https://weibo.com" title="weibo"><i class="icon-weibo"></i></a>
 		        
 					<a class="rss" target="_blank" href="#" title="rss"><i class="icon-rss"></i></a>
 		        
-					<a class="zhihu" target="_blank" href="#" title="zhihu"><i class="icon-zhihu"></i></a>
+					<a class="zhihu" target="_blank" href="https://www.zhihu.com/" title="zhihu"><i class="icon-zhihu"></i></a>
 		        
 			</div>
 		</nav>
@@ -119,13 +119,13 @@
 			<nav class="header-nav">
 				<div class="social">
 					
-						<a class="github" target="_blank" href="#" title="github"><i class="icon-github"></i></a>
+						<a class="github" target="_blank" href="https://github.com" title="github"><i class="icon-github"></i></a>
 			        
-						<a class="weibo" target="_blank" href="#" title="weibo"><i class="icon-weibo"></i></a>
+						<a class="weibo" target="_blank" href="https://weibo.com" title="weibo"><i class="icon-weibo"></i></a>
 			        
 						<a class="rss" target="_blank" href="#" title="rss"><i class="icon-rss"></i></a>
 			        
-						<a class="zhihu" target="_blank" href="#" title="zhihu"><i class="icon-zhihu"></i></a>
+						<a class="zhihu" target="_blank" href="https://www.zhihu.com/" title="zhihu"><i class="icon-zhihu"></i></a>
 			        
 				</div>
 			</nav>
@@ -173,9 +173,10 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h3 id="第一次写博客，也是花了很长时间搭建的，感觉自豪感爆棚。"><a href="#第一次写博客，也是花了很长时间搭建的，感觉自豪感爆棚。" class="headerlink" title="第一次写博客，也是花了很长时间搭建的，感觉自豪感爆棚。"></a>第一次写博客，也是花了很长时间搭建的，感觉自豪感爆棚。</h3><p>&nbsp; &nbsp;做为开篇的第一篇博客，博主的能力也很有限，今天就主要来讲一下let和var的区别。<br>&nbsp; &nbsp;首先let和var都时javascript语言中的关键字，但是let是<a href="https://es6.ruanyifeng.com" target="_blank" rel="noopener"><em>ECMAScript 6</em></a>中的一个新的命令，也是用来声明变量。<br>&nbsp; &nbsp;第二点，let不能重复声明，但是var可以。首先那打开我们的浏览器按下F12打开控制台，我这边使用的是谷歌浏览器。</p>
-<p><strong>首先是用var声明变量</strong><br><img src="/2020/05/04/let%E5%92%8Cvar%E5%8C%BA%E5%88%AB/var.png" alt><br><strong>其次是用let声明的变量</strong><br><img src="/2020/05/04/let%E5%92%8Cvar%E5%8C%BA%E5%88%AB/let.png" alt><br>很明显当我们使用var的时候时刻以反复声明同一个变量的，但是当我们使用let时会出现一个错误Uncaught SyntaxError: Identifier ‘b’ has already been declared，未捕获的SyntaxError:标识符“b”已经声明。<br>&nbsp;&nbsp;第三点，var是全局作用的作用域，而let只有在自己声明的作用域内才有效。请看如下代码：<br><strong>域问题</strong><br><img src="/2020/05/04/let%E5%92%8Cvar%E5%8C%BA%E5%88%AB/%E5%9F%9F%E9%97%AE%E9%A2%98.png" alt><br><strong>for循环问题</strong><br><img src="/2020/05/04/let%E5%92%8Cvar%E5%8C%BA%E5%88%AB/for%E5%BE%AA%E7%8E%AF.png" alt><br>&nbsp;&nbsp;第四，let不存在变量提升变量提升可以说是var声明设计不严谨的一点，可能我们在开发中已经习惯声明一个全局变量，然后可以在声明前后都可以使用它，这很方便，但是不符合规范。<br>代码如下：<br><img src="/2020/05/04/let%E5%92%8Cvar%E5%8C%BA%E5%88%AB/%E5%8F%98%E9%87%8F%E6%8F%90%E5%8D%87let.png" alt><br>接下来是var：<br><img src="/2020/05/04/let%E5%92%8Cvar%E5%8C%BA%E5%88%AB/%E5%8F%98%E9%87%8F%E6%8F%90%E5%8D%87var.png" alt><br>很明显我能看出二者之间的不同！<br>&nbsp;&nbsp;最后let存在暂时性死域，当一个区域存在let声明时，这个区域就形成了一个封闭的作用域，在let声明前使用这个变量就会报错，也就是只能先声明再使用，这种语法也称为暂时性死域。<br>如下代码：<br><img src="/2020/05/04/let%E5%92%8Cvar%E5%8C%BA%E5%88%AB/%E6%9A%82%E6%97%B6%E6%80%A7%E6%AD%BB%E5%9F%9F.png" alt><br>本文多数转自于该博客<a href="https://www.cnblogs.com/echolun/p/10575676.html" target="_blank" rel="noopener">https://www.cnblogs.com/echolun/p/10575676.html</a><br>谢谢观看</p>
-
+        <h3 id="第一次写博客，也是花了很长时间搭建的，感觉自豪感爆棚。"><a href="#第一次写博客，也是花了很长时间搭建的，感觉自豪感爆棚。" class="headerlink" title="第一次写博客，也是花了很长时间搭建的，感觉自豪感爆棚。"></a>第一次写博客，也是花了很长时间搭建的，感觉自豪感爆棚。</h3><p>&nbsp; &nbsp;做为开篇的第一篇博客，博主的能力也很有限，今天就主要来讲一下let和var的区别。</p>
+        
+          <a class="article-more-a" href="/2020/05/04/let%E5%92%8Cvar%E5%8C%BA%E5%88%AB/#more">more >></a>
+        
       
 
       
