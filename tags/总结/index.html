@@ -6,26 +6,16 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>let和var区别 | 博客</title>
+  <title>Tag: -总结 | 博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="Welcome to Hexo! This is your very first post.">
-<meta property="og:type" content="article">
-<meta property="og:title" content="let和var区别">
-<meta property="og:url" content="http://yoursite.com/2020/05/04/let%E5%92%8Cvar%E5%8C%BA%E5%88%AB/index.html">
+  <meta name="description" content="站在巨人的肩上">
+<meta property="og:type" content="website">
+<meta property="og:title" content="博客">
+<meta property="og:url" content="http://yoursite.com/tags/%E6%80%BB%E7%BB%93/index.html">
 <meta property="og:site_name" content="博客">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post.">
-<meta property="og:image" content="http://yoursite.com/2020/05/04/let%E5%92%8Cvar%E5%8C%BA%E5%88%AB/var.png">
-<meta property="og:image" content="http://yoursite.com/2020/05/04/let%E5%92%8Cvar%E5%8C%BA%E5%88%AB/let.png">
-<meta property="og:image" content="http://yoursite.com/2020/05/04/let%E5%92%8Cvar%E5%8C%BA%E5%88%AB/%E5%9F%9F%E9%97%AE%E9%A2%98.png">
-<meta property="og:image" content="http://yoursite.com/2020/05/04/let%E5%92%8Cvar%E5%8C%BA%E5%88%AB/for%E5%BE%AA%E7%8E%AF.png">
-<meta property="og:image" content="http://yoursite.com/2020/05/04/let%E5%92%8Cvar%E5%8C%BA%E5%88%AB/%E5%8F%98%E9%87%8F%E6%8F%90%E5%8D%87let.png">
-<meta property="og:image" content="http://yoursite.com/2020/05/04/let%E5%92%8Cvar%E5%8C%BA%E5%88%AB/%E5%8F%98%E9%87%8F%E6%8F%90%E5%8D%87var.png">
-<meta property="og:image" content="http://yoursite.com/2020/05/04/let%E5%92%8Cvar%E5%8C%BA%E5%88%AB/%E6%9A%82%E6%97%B6%E6%80%A7%E6%AD%BB%E5%9F%9F.png">
-<meta property="article:published_time" content="2020-05-04T13:31:39.000Z">
-<meta property="article:modified_time" content="2020-05-04T16:54:57.661Z">
+<meta property="og:description" content="站在巨人的肩上">
 <meta property="article:author" content="光头小小强007">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="http://yoursite.com/2020/05/04/let%E5%92%8Cvar%E5%8C%BA%E5%88%AB/var.png">
   
     <link rel="alternative" href="/atom.xml" title="博客" type="application/atom+xml">
   
@@ -161,168 +151,60 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-let和var区别" class="article article-type-post " itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
+            
   
-    <h1 class="article-title" itemprop="name">
-      let和var区别
+  
+    
+    
+      
+      
+      <section class="archives-wrap">
+        <div class="archive-year-wrap">
+          <a href="/archives/2020" class="archive-year">2020</a>
+        </div>
+        <div class="archives">
+    
+    <article class="archive-article archive-type-post">
+  <div class="archive-article-inner">
+    <header class="archive-article-header">
+      	<div class="article-meta">
+	      	<a href="/2020/05/24/restful%E9%A3%8E%E6%A0%BC/" class="archive-article-date">
+  	<time datetime="2020-05-24T11:17:08.299Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-05-24</time>
+</a>
+        </div>
+    	 
+  
+    <h1 itemprop="name">
+      <a class="archive-article-title" href="/2020/05/24/restful%E9%A3%8E%E6%A0%BC/">restFul风格</a>
     </h1>
   
 
-        
-        <a href="/2020/05/04/let%E5%92%8Cvar%E5%8C%BA%E5%88%AB/" class="archive-article-date">
-  	<time datetime="2020-05-04T13:31:39.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-05-04</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h3 id="第一次写博客，也是花了很长时间搭建的，感觉自豪感爆棚。"><a href="#第一次写博客，也是花了很长时间搭建的，感觉自豪感爆棚。" class="headerlink" title="第一次写博客，也是花了很长时间搭建的，感觉自豪感爆棚。"></a>第一次写博客，也是花了很长时间搭建的，感觉自豪感爆棚。</h3><p>&nbsp; &nbsp;做为开篇的第一篇博客，博主的能力也很有限，今天就主要来讲一下let和var的区别。</p>
-<a id="more"></a>
-<p>&nbsp; &nbsp;首先let和var都时javascript语言中的关键字，但是let是<a href="https://es6.ruanyifeng.com" target="_blank" rel="noopener"><em>ECMAScript 6</em></a>中的一个新的命令，也是用来声明变量。<br>&nbsp; &nbsp;第二点，let不能重复声明，但是var可以。首先那打开我们的浏览器按下F12打开控制台，我这边使用的是谷歌浏览器。</p>
-<p><strong>首先是用var声明变量</strong><br><img src="/2020/05/04/let%E5%92%8Cvar%E5%8C%BA%E5%88%AB/var.png" alt><br><strong>其次是用let声明的变量</strong><br><img src="/2020/05/04/let%E5%92%8Cvar%E5%8C%BA%E5%88%AB/let.png" alt><br>很明显当我们使用var的时候时刻以反复声明同一个变量的，但是当我们使用let时会出现一个错误Uncaught SyntaxError: Identifier ‘b’ has already been declared，未捕获的SyntaxError:标识符“b”已经声明。<br>&nbsp;&nbsp;第三点，var是全局作用的作用域，而let只有在自己声明的作用域内才有效。请看如下代码：<br><strong>域问题</strong><br><img src="/2020/05/04/let%E5%92%8Cvar%E5%8C%BA%E5%88%AB/%E5%9F%9F%E9%97%AE%E9%A2%98.png" alt><br><strong>for循环问题</strong><br><img src="/2020/05/04/let%E5%92%8Cvar%E5%8C%BA%E5%88%AB/for%E5%BE%AA%E7%8E%AF.png" alt><br>&nbsp;&nbsp;第四，let不存在变量提升变量提升可以说是var声明设计不严谨的一点，可能我们在开发中已经习惯声明一个全局变量，然后可以在声明前后都可以使用它，这很方便，但是不符合规范。<br>代码如下：<br><img src="/2020/05/04/let%E5%92%8Cvar%E5%8C%BA%E5%88%AB/%E5%8F%98%E9%87%8F%E6%8F%90%E5%8D%87let.png" alt><br>接下来是var：<br><img src="/2020/05/04/let%E5%92%8Cvar%E5%8C%BA%E5%88%AB/%E5%8F%98%E9%87%8F%E6%8F%90%E5%8D%87var.png" alt><br>很明显我能看出二者之间的不同！<br>&nbsp;&nbsp;最后let存在暂时性死域，当一个区域存在let声明时，这个区域就形成了一个封闭的作用域，在let声明前使用这个变量就会报错，也就是只能先声明再使用，这种语法也称为暂时性死域。<br>如下代码：<br><img src="/2020/05/04/let%E5%92%8Cvar%E5%8C%BA%E5%88%AB/%E6%9A%82%E6%97%B6%E6%80%A7%E6%AD%BB%E5%9F%9F.png" alt><br>本文多数转自于该博客<a href="https://www.cnblogs.com/echolun/p/10575676.html" target="_blank" rel="noopener">https://www.cnblogs.com/echolun/p/10575676.html</a><br>谢谢观看</p>
+        <div class="article-info info-on-right">
+          
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">-总结</a>
+        		</li>
+      		
+		</ul>
+	</div>
 
-      
+          
 
-      
-        <div class="page-reward">
-          <a href="javascript:;" class="page-reward-btn tooltip-top">
-            <div class="tooltip tooltip-east">
-            <span class="tooltip-item">
-              赏
-            </span>
-            <span class="tooltip-content">
-              <span class="tooltip-text">
-                <span class="tooltip-inner">
-                  <p class="reward-p"><i class="icon icon-quo-left"></i>谢谢你请我吃糖果<i class="icon icon-quo-right"></i></p>
-                  <div class="reward-box">
-                    
-                    
-                  </div>
-                </span>
-              </span>
-            </span>
-          </div>
-          </a>
         </div>
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-      
-
-      
-
-      
-        
-<div class="share-btn share-icons tooltip-left">
-  <div class="tooltip tooltip-east">
-    <span class="tooltip-item">
-      <a href="javascript:;" class="share-sns share-outer">
-        <i class="icon icon-share"></i>
-      </a>
-    </span>
-    <span class="tooltip-content">
-      <div class="share-wrap">
-        <div class="share-icons">
-          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
-            <i class="icon icon-weibo"></i>
-          </a>
-          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
-            <i class="icon icon-weixin"></i>
-          </a>
-          <a class="qq share-sns" href="javascript:;" data-type="qq">
-            <i class="icon icon-qq"></i>
-          </a>
-          <a class="douban share-sns" href="javascript:;" data-type="douban">
-            <i class="icon icon-douban"></i>
-          </a>
-          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
-            <i class="icon icon-qzone"></i>
-          </a>
-          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
-            <i class="icon icon-facebook"></i>
-          </a>
-          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
-            <i class="icon icon-twitter"></i>
-          </a>
-          <a class="google share-sns" href="javascript:;" data-type="google">
-            <i class="icon icon-google"></i>
-          </a>
-        </div>
-      </div>
-    </span>
-  </div>
-</div>
-
-<div class="page-modal wx-share js-wx-box">
-    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
-    <p>扫一扫，分享到微信</p>
-    <div class="wx-qrcode">
-      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2020/05/04/let%E5%92%8Cvar%E5%8C%BA%E5%88%AB/" alt="微信分享二维码">
-    </div>
-</div>
-
-<div class="mask js-mask"></div>
-      
-      <div class="clearfix"></div>
-    </div>
+        <div class="clearfix"></div>
+    </header>
   </div>
 </article>
-
-  
-<nav id="article-nav">
-  
-    <a href="/2020/05/11/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%9A%84%E9%9A%94%E7%A6%BB%E7%BA%A7%E5%88%AB%E5%92%8C%E4%BC%A0%E6%92%AD%E7%89%B9%E6%80%A7/" id="article-nav-newer" class="article-nav-link-wrap">
-      <i class="icon-circle-left"></i>
-      <div class="article-nav-title">
-        
-          数据库的隔离级别和传播特性
-        
-      </div>
-    </a>
   
   
-    <a href="/2020/05/04/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">Hello World</div>
-      <i class="icon-circle-right"></i>
-    </a>
-  
-</nav>
-
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-  
-  
+    </div></section>
   
 
-  
-
-  
-
-  
+    
 
 
           </div>
@@ -345,9 +227,9 @@
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: true,
+		isPost: false,
 		isArchive: false,
-		isTag: false,
+		isTag: true,
 		isCategory: false,
 		open_in_new: false,
 		toc_hide_index: true,
